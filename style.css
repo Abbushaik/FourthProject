@@ -1,0 +1,161 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.container
+{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    background-color: #e2e5e8;
+    background-image: linear-gradient(98deg, #e2e5e8 0%, #ffffff 100%);
+    overflow-x: hidden;
+}
+#navLogo
+{
+    font-size:2rem;
+    padding-left:3rem;
+}
+.navContainer
+{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height:50px;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+nav
+{
+    width:100%;
+    overflow-x:none;
+    padding-right:2rem;
+}
+#navList
+{
+    list-style: none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    font-size:1.6rem;
+    color:white;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+#navItems
+{
+    display:flex;
+    gap:50px;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+.footerBox
+{
+    width:100%;
+    color:white;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height:30px;
+}
+.footerBox p
+{
+    font-size:2rem;
+    text-align:center;
+}
+.contentBox
+{
+    margin:auto;
+    width:70%;
+    background-color: rgb(247, 247, 247);
+    padding:4.5rem;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    box-sizing: border-box;
+}
+.item
+{
+    display:flex;
+    justify-content: space-around;
+    
+
+}
+.rightBox
+{
+    height: 400px;
+    position:relative;
+    transition:all 0.4s linear 0.1s;
+    border-radius:25px;
+    overflow: hidden;
+}
+#olay
+{
+    color:white;
+    font-size: 1.2rem;
+}
+.rightBox .overlay
+{
+    position:absolute;
+    top:0;
+    left:0;
+    height:75%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36, 34, 34,0.713);
+    opacity:0;
+    transition:all 0.4s linear 0.1s;
+    overflow: hidden;
+}
+.rightBox:hover
+{
+    transform:scale(1.1);
+    overflow: hidden;
+}
+.rightBox:hover .overlay
+{
+    opacity:1;
+}
+.rightBox img
+{
+    height:300px;
+    width: 350px;;
+    transition: all 0.7s linear 0s;
+    overflow: hidden;
+}
+.rightBox img:hover
+{
+    transform:scale(1.1);
+}
+.leftBox
+{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.leftBox h2
+{
+    font-size:1.8rem;
+}
+.ingBox
+{
+    font-size:1.2rem;
+}
+#recipeBox
+{
+    font-size:0.97rem;
+}
